@@ -1,6 +1,10 @@
 a=int(input("Enter a number:"))
-if a%2==0:
-    print("The number is even")
+b=int(input("Enter b number:"))
+c=int(input("Enter c number:"))
+if a>b:
+    print("The biggest number is a")
+elif b>c:
+    print("The biggest number is b")
 else:
-    print("The number is odd")
+    print("The biggest number is c")
 
